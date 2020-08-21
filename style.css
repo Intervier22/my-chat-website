@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.logo img{
+    display: block;
+    margin: auto;
+    height: 50px;
+    /* width: 50px; */
+}
+body::before{
+    background: url('bg.PNG') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.container{
+    max-width: 955px;
+    border: 2px solid white;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 25px;
+}
+.message{
+    padding: 10px;
+    margin: 17px 2px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    
+}
+.left{
+display: block;
+float: left;
+clear: both;
+}
+.right{
+display: block;
+float: right;
+clear: both;
+}
+#send-con{
+display: block;
+text-align: center;
+width: 100%;
+margin: auto;
+max-width: 955px;
+}
+#mi{
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 95%;
+    height: 35px;
+}
+.btn{
+    height: 35px;
+    border: 2px solid black;
+    border-radius:6px ;
+    cursor: pointer;
+}
